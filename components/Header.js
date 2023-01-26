@@ -13,10 +13,10 @@ export default function Header() {
         </Link>
         <ul className="flex gap-8">
           <Link href="/ImagePrompts" element={<ImagePrompts/>}>
-          <li className="hover:text-teal-500 text-base sm:text-lg"><a>Image Prompts</a></li>
+          <li className="hidden sm:block hover:text-teal-500 text-base sm:text-lg"><a>Image Prompts</a></li>
           </Link>
-          <li className="hover:text-pink-500 text-base sm:text-lg"><a href="">Add your Prompts</a></li>
-          <li className="hover:text-yellow-500 text-base sm:text-lg"><a href="">Extension</a></li>
+          <li className="hidden sm:block hover:text-pink-500 text-base sm:text-lg"><a href="">Add your Prompts</a></li>
+          <li className="hidden sm:block hover:text-yellow-500 text-base sm:text-lg"><a href="">Extension</a></li>
           <li className="hover:text-purple-500 text-base sm:text-lg mt-1 cursor-pointer"><a onClick={()=>setIsDark(!isDark)}>
           {isDark ? <BsFillSunFill/> : <BsFillMoonStarsFill/>}  
           </a></li>
