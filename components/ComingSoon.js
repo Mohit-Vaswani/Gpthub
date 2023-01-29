@@ -1,6 +1,8 @@
+import Link from "next/link";
+
 export default function ComingSoon() {
   return (
-    <div className="text-center w-full flex justify-center">
+    <div className="text-center w-full h-screen flex flex-col justify-center items-center">
       <div>
         <svg
             className="mt-10"
@@ -73,6 +75,7 @@ export default function ComingSoon() {
           </g>
         </svg>
       </div>
+        <Link href="/" className="underline text-2xl mt-10">Back To Home</Link>
     </div>
   );
 }

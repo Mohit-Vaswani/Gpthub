@@ -4,6 +4,7 @@ import PromptList from "./PromptList";
 
 export default function MainContainer() {
   const [prompts, setPrompts] = useState(data);
+  prompts.sort(() => Math.random() - 0.5);
   return (
     <section>
       {/* Main Page */}

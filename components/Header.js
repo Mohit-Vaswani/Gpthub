@@ -1,6 +1,8 @@
 import Link from "next/link";
 import { useState } from "react";
 import ImagePrompts from "../pages/ImagePrompts"
+import Form from "../pages/form"
+import Extension from "../pages/extension"
 import {BsFillSunFill, BsFillMoonStarsFill} from "react-icons/bs";
 
 export default function Header() {
@@ -15,8 +17,12 @@ export default function Header() {
           <Link href="/ImagePrompts" element={<ImagePrompts/>}>
           <li className="hidden sm:block hover:text-teal-500 text-base sm:text-lg"><a>Image Prompts</a></li>
           </Link>
-          <li className="hidden sm:block hover:text-pink-500 text-base sm:text-lg"><a href="">Add your Prompts</a></li>
-          <li className="hidden sm:block hover:text-yellow-500 text-base sm:text-lg"><a href="">Extension</a></li>
+          <Link href="/form" element={<Form/>}>
+          <li className="hidden sm:block hover:text-pink-500 text-base sm:text-lg"><a>Add your Prompts</a></li>
+          </Link>
+          <Link href="/extension">
+          <li className="hidden sm:block hover:text-yellow-500 text-base sm:text-lg"><a>Extension</a></li>
+          </Link>
           <li className="hover:text-purple-500 text-base sm:text-lg mt-1 cursor-pointer"><a onClick={()=>setIsDark(!isDark)}>
           {isDark ? <BsFillSunFill/> : <BsFillMoonStarsFill/>}  
           </a></li>
