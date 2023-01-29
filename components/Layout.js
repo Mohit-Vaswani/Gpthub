@@ -24,7 +24,7 @@ export default function Layout({ title, description, keywords, children }) {
 }
 
 Layout.defaultProps = {
-  title: "GPT Hub 🤖",
+  title: "GPT Hub 🤖 - The Largest prompts directory for Chatgpt, Midjourney & Dall-E.",
   description: "Welcome to GPT Hub, your ultimate source for the best prompts and tips for using the powerful language model ChatGPT. Our website offers a curated collection of the most engaging and effective prompts, as well as helpful resources and guides for getting the most out of ChatGPT.",
   keywords: "chatgpt, chatgpt prompts, ai tools",
 };
