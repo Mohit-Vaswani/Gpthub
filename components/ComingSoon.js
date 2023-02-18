@@ -4,7 +4,7 @@ export default function ComingSoon() {
   return (
     <div className="text-center w-full h-screen flex flex-col justify-center items-center">
       <div>
-        <svg
+        {/* <svg
             className="mt-10"
           version="1.0"
           xmlns="http://www.w3.org/2000/svg"
@@ -73,7 +73,7 @@ export default function ComingSoon() {
 -10 -28 -28 -57z"
             />
           </g>
-        </svg>
+        </svg> */}
       </div>
         <Link href="/" className="underline text-2xl mt-10">Back To Home</Link>
     </div>

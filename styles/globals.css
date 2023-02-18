@@ -92,8 +92,9 @@ body {
 }
 
 body {
-  color: #000000;
-  background: #ffffff;
+  color: #ffffff;
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(22,55,68,1) 100%, rgba(37,107,105,1) 100%, rgba(64,7,120,1) 100%, rgba(44,56,85,1) 100%, rgba(63,46,103,1) 100%, rgba(29,63,70,1) 100%, rgba(255,255,255,1) 100%, rgba(0,212,255,1) 100%);
   font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -107,4 +108,3 @@ a {
     color-scheme: dark;
   }
 }
-
