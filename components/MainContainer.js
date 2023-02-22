@@ -32,7 +32,7 @@ export default function MainContainer() {
         {/* Heading */}
         <div className="mt-12 px-4">
           <h1 className="text-3xl sm:text-7xl font-medium mb-2">GPTHUB</h1>
-          <p className="text-base sm:text-2xl text-purple-500">
+          <p className="text-base sm:text-2xl text-purple-500 uppercase">
             THE LARGEST PROMPTS DIRECTORY FOR CHATGPT, UPDATED DAILY.
           </p>
         </div>
